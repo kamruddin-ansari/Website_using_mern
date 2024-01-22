@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    max-width: 140rem;
+    padding: 4.2rem 2.4rem;
+    
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    gap: 3.2rem;
+}
+li{
+    list-style: none;
+}
+
+.footer{
+    background: #818181;
+    text-align: center;
+    padding: 20px;
+    margin: 8px;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.footer a:hover{
+    color: white;
+    border-bottom: 1px solid white;
+}
